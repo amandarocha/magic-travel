@@ -1,0 +1,81 @@
+@media only screen and (max-width: 800px) {
+    .fairy-tale {
+        display: flex !important; 
+        flex-direction: column !important;
+    }
+    .images {
+        flex-direction: column !important;
+    }
+    .images img {
+        width: 230px !important;
+        height: 216px !important;
+    }
+  }
+
+body, footer {
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: url("../images/Castle-background.png") no-repeat fixed;
+    background-size: contain;
+    min-width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 30px 1000px 0 200px;
+}
+
+.menu a {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.fairy-tale {
+    width: 100%;
+    height: 460px;
+    display: flex;    
+    padding: 90px 150px 90px 150px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    width: 400px;
+
+}
+
+.description {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 24px;
+    width: 500px;
+
+}
+
+.images img {
+    margin-left: 40px;
+}
+
+
